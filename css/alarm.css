@@ -43,6 +43,10 @@ body{
     justify-content: space-between;
 }
 
+.wrapper .content .disabled{
+    opacity: 0.6;
+    pointer-events: none;
+}
 .content .column{
     border-radius: 5px;
     padding: 0 10px;
